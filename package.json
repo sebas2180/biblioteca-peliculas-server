@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc -w",
     "dev": "nodemon build/index.js",
-    "start": "nodemon build/index.js"
+    "start": "node ./build/nodej.s"
   },
   "keywords": [],
   "author": "Sebastian Batalla",
@@ -16,7 +16,8 @@
     "express": "^4.17.1",
     "morgan": "^1.9.1",
     "mysql2": "^2.1.0",
-    "promise-mysql": "^4.1.2"
+    "promise-mysql": "^4.1.2",
+    "tsc":"3.7.5"
   },
   "devDependencies": {
     "@types/cors": "^2.8.6",
