@@ -24,5 +24,7 @@
     "@types/morgan": "^1.7.37",
     "@types/mysql2": "github:types/mysql2",
     "nodemon": "^2.0.2"
+  },"engines": {
+    "node": "10.x"
   }
 }
